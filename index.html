@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/css/style.css">
+	<title>Form</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<h1>Inscription in the theology course</h1>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<form method="get">
+				<div class="col">
+					<label>
+						Complete name
+						<br>
+						<input type="text" name="name" required>
+					</label>
+					<label>
+						Birthday
+						<br>
+						<input type="date" name="birthday" min="2008-03-22" max="2024-03-22">
+					</label>
+					<label>
+						Age
+						<br>
+						<input type="number" minlength="16" name="age" value="16" required>
+					</label>
+					<label>
+						Country
+						<br>
+						<input type="text" name="country">
+					</label>
+				</div>
+				<div class="col">
+					<label>
+						Adress
+						<br>
+						<input type="text" placeholder="Street X, Block Y" name="adress"" required>
+					</label>
+					<label>
+						Contact
+						<br>
+						<input type=" tel" name="contact" placeholder="+00 (00)0000-0000" required>
+					</label>
+					<label>
+						Email
+						<br>
+						<input type="text" name="email" placeholder="someone@mail.com" required>
+					</label>
+					<label>
+						Cpf
+						<br>
+						<input type="text" name="cpf" placeholder="000-000-000.00">
+					</label>
+				</div>
+				<div class="col_area">
+					<label>
+						Why
+						<br>
+						<textarea name="why">I want to make this course because...</textarea>
+						</textarea>
+					</label>
+				</div>
+				<div class="col_buttons">
+					<button>Buy</button>
+					<button type="reset">Reset</button>
+				</div>
+			</form>
+		</div>
+	</section>
+</body>
+
+</html>
